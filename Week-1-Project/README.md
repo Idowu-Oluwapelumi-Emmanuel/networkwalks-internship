@@ -197,12 +197,6 @@ DNS:            8.8.8.8
 Internet:       ✅ Working
 ```
 
-![Kali IP and Ping]((https://github.com/Idowu-Oluwapelumi-Emmanuel/networkwalks-internship/blob/main/Week-1-Project/kali_ip_ping.png))
-
-*Figure 1: Kali Linux IP address and internet connectivity verification*
-
----
-
 ## 🐞 Problems Encountered & Solutions
 
 No major issues were encountered during the setup process. The Kali Linux VM was successfully imported, configured, and verified without errors.
