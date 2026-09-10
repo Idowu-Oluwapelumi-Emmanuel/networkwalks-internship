@@ -197,7 +197,7 @@ DNS:            8.8.8.8
 Internet:       ✅ Working
 ```
 
-![Kali IP and Ping](screenshots/kali_ip_ping.png)
+![Kali IP and Ping]((https://github.com/Idowu-Oluwapelumi-Emmanuel/networkwalks-internship/blob/main/Week-1-Project/kali_ip_ping.png))
 
 *Figure 1: Kali Linux IP address and internet connectivity verification*
 
