@@ -175,52 +175,6 @@ The snapshot represents the clean baseline of the laboratory. If a future exerci
 
 ---
 
-## 📁 GitHub Repository Setup
-
-After completing the lab setup, the project was uploaded to GitHub for submission and documentation.
-
-### Step 1: Create the Repository
-
-1. Went to [github.com](https://github.com) and logged in.
-2. Clicked the **"+"** icon at the top-right → selected **New repository**.
-3. Named the repository: `networkwalks-internship`
-4. Added description: `Cybersecurity Internship at Networkwalks - Weekly Projects`
-5. Set visibility to **Public**.
-6. ✅ Checked **"Add a README file"**.
-7. Clicked **Create repository**.
-
----
-
-### Step 2: Add the Project Files
-
-1. Created a new folder: `Week-1-Project/`
-2. Inside it, created:
-   - `README.md` – project overview and documentation
-   - `screenshots/` – folder for images
-3. Uploaded the screenshot: `kali_ip_ping.png`
-4. Edited the root `README.md` to include a link to Week 1.
-
----
-
-### Step 3: Commit and Push
-
-1. All changes were committed directly to the `main` branch using GitHub's web interface.
-2. The repository was made public for easy sharing and submission.
-
----
-
-### Final Repository Structure
-
-```
-📁 networkwalks-internship/
-   ├── 📄 README.md
-   └── 📁 Week-1-Project/
-       ├── 📄 README.md
-       └── 📁 screenshots/
-           └── kali_ip_ping.png
-```
-
----
 
 ## 🔎 Lab Verification
 
