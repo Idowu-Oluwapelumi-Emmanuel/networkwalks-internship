@@ -44,7 +44,7 @@ curl -I https://networkwalks.com
 wafw00f networkwalks.com
 dnsrecon -d networkwalks.com
 
-#### Key Findings
+### Key Findings
 
 | Tool | Finding |
 |---|---|
@@ -205,10 +205,3 @@ Everything outside these cases is illegal.
 Week 2 Project — Networkwalks Cybersecurity Program
 
 ---
-
-## Contact
-- Email: idowuoluwapelumi021@gmail.com
-
----
-
-- GitHub: [your-username](https://github.com/your-username)
