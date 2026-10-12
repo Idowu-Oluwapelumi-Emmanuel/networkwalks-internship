@@ -87,10 +87,12 @@ Loaded `My Locked PDF1.pdf` hash into Johnny → ran attack.
 
 **Cracked password for PDF1:** `good-luck`
 
+
 #### Step 5: Open the PDF — Flag Captured
 
 Entered the cracked password → PDF unlocked → flag revealed.
 
+<img width="467" height="421" alt="File_Open_Successfully" src="https://github.com/user-attachments/assets/3e1a53c1-dc00-45f0-9c63-e0a1e25e8d05" />
 
 
 **Flag:** `nw{cybersecurity_flag_captured_2608}`
@@ -107,14 +109,13 @@ Uploaded `My Locked PDF2.pdf` to Networkwalks Hash Calculator → extracted the 
 <img width="453" height="425" alt="networks_cracking_tool" src="https://github.com/user-attachments/assets/76c15593-7e07-4e1d-97f5-576f049989f5" />
 
 
-#### Step 2: Crack PDF1 with NW Password Cracker
+#### Step 2: Crack PDF2 with NW Password Cracker
 
-Pasted the PDF1 hash into NW Password Cracker → ran dictionary attack.
+Pasted the PDF2 hash into NW Password Cracker → ran dictionary attack.
 
 ![NW Cracker — password1]
 <img width="452" height="451" alt="password_cracked" src="https://github.com/user-attachments/assets/45dc3423-324a-4805-9033-4e418ac98ef5" />
 
-<img width="525" height="734" alt="image" src="https://github.com/user-attachments/assets/9e141ebe-dbe5-4266-bf5f-7538a23663e2" />
 
 
 
@@ -122,9 +123,9 @@ Pasted the PDF1 hash into NW Password Cracker → ran dictionary attack.
 
 #### Step 4: Open the Locked PDF
 
-Opened `My Locked PDF1.pdf` → entered `password1`.
+Opened `My Locked PDF2.pdf` → entered `password1`.
 
-![PDF Password Prompt](02_NW_Tools/09_pdf_password_prompt_screenshot.png)
+<img width="525" height="734" alt="image" src="https://github.com/user-attachments/assets/9e141ebe-dbe5-4266-bf5f-7538a23663e2" />
 
 #### Step 5: PDF Unlocked
 
