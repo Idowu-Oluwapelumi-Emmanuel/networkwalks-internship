@@ -96,11 +96,13 @@ All three PDF files used weak password-based encryption. All passwords were reco
 
 **Evidence:**
 
-![Cracked Report 1](03_Cracking/08a_cracked_report1_screenshot.png)
+<img width="431" height="338" alt="pdf1_opened" src="https://github.com/user-attachments/assets/ca75c871-d98f-4039-a7f6-6679ab9a6f4a" />
 
-![Cracked Report 2](03_Cracking/08b_cracked_report2_screenshot.png)
 
-![Cracked Report 3](03_Cracking/09_cracked_report3_screenshot.png)
+<img width="425" height="313" alt="pdf2_open" src="https://github.com/user-attachments/assets/4be5d73c-ed2d-4c93-8be7-c6d7a6306e0e" />
+
+<img width="437" height="329" alt="pdf3_opened" src="https://github.com/user-attachments/assets/19d819bb-0438-4686-84da-2c09ab64d3a7" />
+
 
 | Report | Password | Method |
 |---|---|---|
@@ -119,7 +121,8 @@ The PDF metadata was not stripped before distribution. It reveals the author and
 
 **Evidence:**
 
-![Exiftool Output](04_Metadata/11_exiftool_output_screenshot.png)
+<img width="493" height="333" alt="Meta_data" src="https://github.com/user-attachments/assets/252a3b67-5f83-418c-a0cf-824a2a5d6f27" />
+
 
 Key fields:
 
@@ -142,11 +145,9 @@ The `/old/` folder, referenced in both `robots.txt` and the PDF metadata, has di
 
 **Evidence:**
 
-![Robots Clue](04_Metadata/11b_robots_clue_screenshot.png)
+<img width="383" height="201" alt="robot" src="https://github.com/user-attachments/assets/e6de8e87-b8f5-47a7-a789-be2475100963" />
 
-![Directory Listing](05_Database/12_directory_listing_screenshot.png)
 
-![Backup Download](05_Database/12b_backup_download_screenshot.png)
 
 The `robots.txt` file confirms `/old/` is a hidden folder. Visiting `/old/` shows the backup file `mediroza_db_backup_2019.sql`, which is downloadable without authentication.
 
@@ -161,9 +162,6 @@ The backup file contains the complete HR database in plain text, including staff
 
 **Evidence:**
 
-![Staff SQL](05_Database/13a_staff_sql_screenshot.png)
-
-![Salaries Table](05_Database/13a_salaries_screenshot.png)
 
 Sample staff records:
 
@@ -174,9 +172,6 @@ Sample staff records:
 | 9 | Jameel Malik | IT Systems Administrator | IT | 58,000 |
 | 30 | Andile Mbeki | Ward Clerk | Administration | 21,000 |
 
-![Shareholders SQL](05_Database/13b_shareholders_sql_screenshot.png)
-
-![Shareholders Table](05_Database/13b_shareholders_screenshot.png)
 
 Sample shareholders records:
 
@@ -189,7 +184,8 @@ Sample shareholders records:
 
 **Trail Complete:**
 
-![Trail Complete](05_Database/14_trail_complete_screenshot.png)
+<img width="855" height="95" alt="image" src="https://github.com/user-attachments/assets/a04a445f-768b-439f-94d6-0aab35353b22" />
+
 
 Jameel Malik is listed in the staff table as the IT Systems Administrator. His email `j.malik` matches the Author field in the PDF metadata. He is the one who moved the backup to `/old` and left the note inside the report.
 
@@ -221,7 +217,7 @@ Jameel Malik is listed in the staff table as the IT Systems Administrator. His e
 
 ## 6. Full Report
 
-[Download the full penetration testing report](06_Report/W4_Mediroza_Pentest_Report.pdf)
+The complete penetration testing report is contained within this README. All evidence screenshots are embedded in Section 3 — Findings and Proof of Exploitation.
 
 ---
 
